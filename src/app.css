@@ -1,0 +1,22 @@
+.information{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+.bordered-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000; /* Add a 1px solid black border around the table */
+  }
+  
+  .bordered-table th, .bordered-table td {
+    border: 1px solid #000; /* Add a 1px solid black border around table cells */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .bordered-table th {
+    background-color: #f2f2f2;
+  }
